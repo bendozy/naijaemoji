@@ -1,18 +1,19 @@
 [![Build Status](https://travis-ci.org/andela-cijeomah/simpleorm.svg?branch=master)](https://travis-ci.org/andela-cijeomah/simpleorm)
 
-#Simple ORM
-A simple lightweight php Object Relational Mapper(ORM) done according to the 
+#NaijaEmoji
+NaijaEmoji is RESTful API for CRUD operations on the common emojis reimagined
+for Nigerians. The API uses simple token based authentication and is developed
 [The PHP League way](https://thephpleague.com/)
 
 
 #Testing
- The phpunit framework for testing is used to perform
+ The phpspec framework for testing is used to perform
  unit test on the classes. The TDD principle has been
  employed
 
  Run this on bash to execute the tests
  ```````bash
- /vendor/phpunit/phpunit/phpunit
+ bin/phpspec run --format=pretty
 `````````
 
 #Install
@@ -20,47 +21,15 @@ A simple lightweight php Object Relational Mapper(ORM) done according to the
 - To install this package, PHP 5.5.9+ and Composer are required
 
 ````bash
-composer require bendozy/orm
+composer require bendozy/naijaemoji
 ``````
 
-#usage
+## Usage
 
-- Save a record in the database
+Create mysql database with users and emojis tables. Do not forget to enable utf8-mb4 charset encoding on the database and each table.
 
-````````
-$user = new User();
-$user->username = "Marcus";
-$user->password = "password";
-$user->email = "Marcus@andela.com";
-$user->save();
-`````````
-- Find a record
-
-``````
-$user = User::find($id);
-``````
-- Update a record
-
-``````
-$user = User::find($id);
-$user->password = "passwordagain";
-$user->username = "helloandela";
-$user->save();
-
-``````
-- Delete a record -- returns a boolean
-
-````````
-$result = User::destroy($id):
-````````
-
-- Find a record based on column value
-
-```````
-$user = User::where('username', 'john');
-``````
-
-
+If you need help with enabling utf8-mb4, here is a [guide](https://mathiasbynens.be/notes/mysql-utf8mb4).
+ 
 
 ## Change log
 Please refer to [CHANGELOG](CHANGELOG.mds) file for information on what has changed recently.
