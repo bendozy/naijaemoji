@@ -1,5 +1,5 @@
 {
-    "name": "bendozy/naija-emoji",
+    "name": "bendozy/naijaemoji",
     "description": "A RestFul API using Slim for a NaijaEmoji Service.",
     "homepage": "https://github.com/andela-cijeomah/naija-emoji",
     "require": {
