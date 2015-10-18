@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/andela-cijeomah/simpleorm.svg?branch=master)](https://travis-ci.org/andela-cijeomah/simpleorm)
-
+[![Build Status](https://travis-ci.org/andela-cijeomah/naijaemoji.svg?branch=master)](https://travis-ci.org/andela-cijeomah/naijaemoji)
 #NaijaEmoji
 NaijaEmoji is RESTful API for CRUD operations on the common emojis reimagined
 for Nigerians. The API uses simple token based authentication and is developed
