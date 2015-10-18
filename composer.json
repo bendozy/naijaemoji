@@ -39,7 +39,7 @@
         }
     },
     "scripts": {
-        "test": "php vendor/bin/phpspec run --format=pretty"
+        "test": "bin/phpspec run --format=pretty"
     },
     "config": {
         "bin-dir": "bin"
