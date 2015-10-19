@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de32950df2a72322a0cf1ea5fd4d7943",
-    "content-hash": "b482ed329f47b51428b7a46fc678fc7c",
+    "hash": "0f72b7ff0d1e98ff5139b0c27b024bac",
+    "content-hash": "82028507ba203deb52543b03255cf89f",
     "packages": [
         {
             "name": "bendozy/orm",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/andela-cijeomah/simpleorm.git",
-                "reference": "564f790bc7309f6d6e713847b3b6455a4b4755ef"
+                "reference": "8a6e766fcb4c5c28ed63f5af63632f84e1c1d4b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andela-cijeomah/simpleorm/zipball/564f790bc7309f6d6e713847b3b6455a4b4755ef",
-                "reference": "564f790bc7309f6d6e713847b3b6455a4b4755ef",
+                "url": "https://api.github.com/repos/andela-cijeomah/simpleorm/zipball/8a6e766fcb4c5c28ed63f5af63632f84e1c1d4b0",
+                "reference": "8a6e766fcb4c5c28ed63f5af63632f84e1c1d4b0",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                 "php",
                 "sql"
             ],
-            "time": "2015-10-16 14:46:25"
+            "time": "2015-10-19 16:18:51"
         },
         {
             "name": "slim/slim",
