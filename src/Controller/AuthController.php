@@ -9,13 +9,6 @@ use Slim\Slim;
 
 class AuthController
 {
-	private $auth;
-
-	public function __construct()
-	{
-		$this->auth = new Auth();
-	}
-
 	public function login()
 	{
 		$app = Slim::getInstance();

@@ -2,10 +2,10 @@
 
 require('vendor/autoload.php');
 
-use Bendozy\NaijaEmoji\Controller\AuthController;
-use Bendozy\NaijaEmoji\Controller\EmojiController;
-use Bendozy\NaijaEmoji\Middleware\AuthMiddleware;
 use Slim\Slim;
+use Bendozy\NaijaEmoji\Controller\AuthController;
+use Bendozy\NaijaEmoji\Middleware\AuthMiddleware;
+use Bendozy\NaijaEmoji\Controller\EmojiController;
 
 $app = new Slim();
 
@@ -52,5 +52,8 @@ $app->put('/emojis/:id', function ($id) use ($emojiController){
 
 $app->delete('/emoji/:id', $authenticated, function ($id) use ($emojiController){
 	$emojiController->deleteEmoji($id);
+});
+$app->get('/', function (){
+	echo "Welcome to Naija Emoji Service";
 });
 $app->run();
