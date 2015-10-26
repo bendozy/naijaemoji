@@ -18,7 +18,6 @@ class AuthMiddleware
 	public function authenticate()
 	{
 		$app = Slim::getInstance();
-		//$this->auth = new Auth();
 		$token = $app->request->headers->get('Authorization');
 		$response = $app->response();
 		$response->header("Content-Type", "application/json");
